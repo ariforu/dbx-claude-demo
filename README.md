@@ -6,7 +6,7 @@ A simple Python project demonstrating how to use Claude via the Anthropic API in
 
 ### Using pyenv (recommended)
 
-1. Clone this repository
+1. Clone this repository. cd to claude_demo directory
 2. Set up Python environment with pyenv:
    ```bash
    # Install Python 3.11.8 if not already installed
