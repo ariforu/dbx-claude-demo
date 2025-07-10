@@ -45,8 +45,7 @@ A simple Python project demonstrating how to use Claude via the Anthropic API in
    ```bash
    cp .env.example .env
    ```
-5. Get your API key from [Anthropic Console](https://console.anthropic.com/) and add it to the `.env` file
-
+5. Populate the environment variables by getting the values from the [Databricks UI]. The PAT will be under "Settings" -> "Developer" -> "Access Tokens".
 ## Usage
 
 ### Basic Example
@@ -63,6 +62,3 @@ This will prompt you to enter a question, which will be sent to Claude. The resp
 
 - Goto DBX console and visit "Serving" section to see the available models/gateway.Try the DBX managed LLM models(e.g. databricks-claude-3-7-sonnet) from your "paid" Databricks account(for unified DBU based billing) or register it like external provider if you're testing on Free account !
 
-## Documentation
-
-For more information on using the Anthropic API, see the [official documentation](https://docs.anthropic.com/claude/reference/getting-started-with-the-api).
