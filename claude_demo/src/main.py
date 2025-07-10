@@ -24,7 +24,7 @@ def main():
     workspace_client = WorkspaceClient(host=host, token=token)
         
     # Define the payload
-    payload = MessagePayload(role='user', prompt="Explain the theory of relativity.", max_tokens=100)
+    payload = MessagePayload(role='user', prompt="Explain the theory of relativity in 2 sentences.", max_tokens=100)
 
     # Call the endpoint using the WorkspaceClient
     response = workspace_client.serving_endpoints.query(
