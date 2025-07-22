@@ -1,7 +1,6 @@
 """
 Payload classes for Databricks AI Gateway requests.
 """
-
 class MessagePayload:
     def __init__(self, role, prompt, max_tokens):
         self.prompt = prompt
